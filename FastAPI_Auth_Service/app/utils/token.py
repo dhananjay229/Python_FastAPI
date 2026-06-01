@@ -33,8 +33,3 @@ def create_refresh_token(data: dict):
         settings.SECRECT_KEY,
         algorithm=settings.ALGORITHM
         )
-
-
-
-
-
